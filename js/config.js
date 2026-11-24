@@ -278,12 +278,12 @@
     // occasions in invitation.txt; the template's other three rites stay in
     // the list switched off, ready for a host to switch on.
     ceremonies: [
-      { name: 'Lagan & Sagai', art: 'images/ring_ceremony.webp', date: addDaysISO(VIVAAH_ISO, -4), time: '16:00', venue: 'Basant Garden, Baghpat', mapUrl: '', enabled: true },
+      { name: 'Lagan & Sagai', art: 'images/ring_ceremony.webp', date: addDaysISO(VIVAAH_ISO, -4), time: '16:00', venue: 'Basant Garden, Baghpat', mapUrl: 'https://www.google.com/maps/place/BASANT+GARDEN/@28.9551705,77.2146859,17z/data=!3m1!4b1!4m6!3m5!1s0x390c52dd56adec65:0xf64ce2580680797e!8m2!3d28.9551705!4d77.2172608!16s%2Fg%2F11c314b_90?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D', enabled: true },
       { name: 'Mehendi', art: 'images/mehendi.webp', date: addDaysISO(VIVAAH_ISO, -1), time: '11:00', venue: '', mapUrl: '', enabled: false },
       { name: 'Haldi', art: 'images/haldi.webp', date: addDaysISO(VIVAAH_ISO, -1), time: '16:00', venue: '', mapUrl: '', enabled: false },
       { name: 'Sangeet', art: 'images/sangeet.webp', date: addDaysISO(VIVAAH_ISO, -1), time: '19:30', venue: '', mapUrl: '', enabled: false },
-      { name: 'Ghurchadhi', art: 'images/vivaah.webp', date: VIVAAH_ISO, time: '16:00', venue: 'Sisana Village, Baghpat', mapUrl: '', enabled: true },
-      { name: 'Baraat', art: 'images/reception.webp', date: VIVAAH_ISO, time: '18:00', venue: 'Sisana Village to Baghpat', mapUrl: '', enabled: true },
+      { name: 'Ghurchadhi', art: 'images/vivaah.webp', date: VIVAAH_ISO, time: '16:00', venue: 'Sisana Village, Baghpat', mapUrl: 'https://www.google.com/maps/place/Chauhan+chaupal/@28.9351868,77.2174469,18.5z/data=!4m6!3m5!1s0x390c53ae0785aaad:0xf2a2e0dec4149e5c!8m2!3d28.9352242!4d77.2176365!16s%2Fg%2F11rq2gr0m7?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D', enabled: true },
+      { name: 'Baraat', art: 'images/reception.webp', date: VIVAAH_ISO, time: '18:00', venue: 'Sisana Village to Baghpat', mapUrl: 'https://www.google.com/maps/search/?api=1&query=Sisana%20Village%20to%20Baghpat', enabled: true },
     ],
 
     compliments: {
