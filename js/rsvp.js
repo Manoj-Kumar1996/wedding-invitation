@@ -658,6 +658,18 @@
       var messageEl = form.querySelector('.brsvp-message__box');
       var message = messageEl ? messageEl.value.trim() : '';
 
+      // Send the response to the host's WhatsApp - the invitation is a
+      // preview for now, so the reply goes to the owner's number rather than
+      // into the platform's collection, which opens once the invitation is
+      // live.
+      var waLines = ['Wedding RSVP'];
+      responses.forEach(function (r) {
+        var e = evs.filter(function (x) { return x.id === r.rsvpEventId; })[0];
+        waLines.push(((e ? e.name : 'Event') + ' - ' + (r.status || 'status') + (r.guestCount ? ' (' + r.guestCount + ' guests)' : '')));
+      });
+      if (message) waLines.push(message);
+      window.open('https://wa.me/9119795282?text=' + encodeURIComponent(waLines.join('\n')), '_blank');
+
       // Hand off to the parent page, which holds the CSRF token + endpoint.
       // `name` only matters on the common link; the server ignores it once a
       // guestId is known.
