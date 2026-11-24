@@ -512,6 +512,7 @@ body::before {
   font-size: 40px;
   font-weight: 500;
   line-height: 1.1;
+  white-space: pre-line;
 }
 
 .royale-scroll__block {

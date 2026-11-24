@@ -231,7 +231,7 @@
     // off, so removing one is reversible.
     groomFamily: {
       enabled: true,
-      name: 'Chi. Himanshu Chauhan & Chi. Shivam Chauhan',
+      name: 'Chi. Himanshu\n&\nChi. Shivam',
       relLabel: 'Sons of',
       parentA: 'Shri Jeet Chauhan',
       parentB: 'Shri Sanjay Chauhan',
@@ -243,7 +243,7 @@
     },
     brideFamily: {
       enabled: true,
-      name: 'Kum. Megha & Kum. Neha',
+      name: 'Kum. Megha\n&\nKum. Neha',
       relLabel: 'Brides of',
       parentA: 'the Chauhan Family',
       parentB: '',
@@ -283,7 +283,7 @@
       { name: 'Haldi', art: 'images/haldi.webp', date: addDaysISO(VIVAAH_ISO, -1), time: '16:00', venue: '', mapUrl: '', enabled: false },
       { name: 'Sangeet', art: 'images/sangeet.webp', date: addDaysISO(VIVAAH_ISO, -1), time: '19:30', venue: '', mapUrl: '', enabled: false },
       { name: 'Ghurchadhi', art: 'images/vivaah.webp', date: VIVAAH_ISO, time: '16:00', venue: 'Sisana Village, Baghpat', mapUrl: 'https://www.google.com/maps/place/Chauhan+chaupal/@28.9351868,77.2174469,18.5z/data=!4m6!3m5!1s0x390c53ae0785aaad:0xf2a2e0dec4149e5c!8m2!3d28.9352242!4d77.2176365!16s%2Fg%2F11rq2gr0m7?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D', enabled: true },
-      { name: 'Baraat', art: 'images/reception.webp', date: VIVAAH_ISO, time: '18:00', venue: 'Sisana Village to Baghpat', mapUrl: 'https://www.google.com/maps/search/?api=1&query=Sisana%20Village%20to%20Baghpat', enabled: true },
+      { name: 'Baraat', art: 'images/reception.webp', date: VIVAAH_ISO, time: '18:00', venue: 'Subhash Gate Purana Kasba Baghpat', mapUrl: 'https://www.google.com/maps/place/Subhash+Gate+purana+kasba/@28.9399062,77.2183105,17z/data=!3m1!4b1!4m6!3m5!1s0x390c53007022f84d:0x3da2a05408236892!8m2!3d28.9399062!4d77.2208854!16s%2Fg%2F11wfrr051q?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D', enabled: true },
     ],
 
     compliments: {
@@ -311,7 +311,7 @@
     // one with anything to store - the other two are derived from the
     // ceremonies above. `instagram: false` takes the icon off the row; an
     // empty instagramUrl still shows it and opens Instagram itself.
-    social: { instagram: true, instagramUrl: '' },
+    social: { instagram: false, instagramUrl: '' },
 
     // Background music - the shared platform control (_platform/music.js)
     // reads and writes this. `src` points at the track shipped with this
