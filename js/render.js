@@ -456,8 +456,6 @@
       html +=
         '<div class="gframe ry-frame-add" style="--hang: 110px;">' +
         '<div class="ry-frame-add__box"><p>Add a frame (' + items.length + '/' + GALLERY_MAX + ')</p>' +
-        '<button type="button" data-action="gallery-add" data-type="portrait">+ Portrait</button>' +
-        '<button type="button" data-action="gallery-add" data-type="landscape">+ Landscape</button>' +
         '<button type="button" data-action="gallery-add" data-type="story">+ Words</button>' +
         '</div></div>';
     }

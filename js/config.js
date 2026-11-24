@@ -194,14 +194,12 @@
    * their own three are what load.
    */
   const GALLERY_STARTERS = [
-    { type: 'portrait', image: '', placeholder: true, caption: '#howitstarted', hang: 118 },
-    { type: 'landscape', image: '', placeholder: true, caption: '#adventures', hang: 150 },
     { type: 'story', text: 'Some stories begin with grand gestures. Ours started with a simple conversation.', hang: 86 },
-    { type: 'portrait', image: '', placeholder: true, caption: '#thelittlethings', hang: 132 },
-    { type: 'landscape', image: '', placeholder: true, caption: '#everyday', hang: 100 },
     { type: 'story', text: "Friendship grew into something more, and we realized life's best moments were the ones we shared together.", hang: 120 },
-    { type: 'portrait', image: '', placeholder: true, caption: '#foreverbegins', hang: 150 },
-    { type: 'landscape', image: '', placeholder: true, caption: '#usforever', hang: 92 },
+    { type: 'story', text: 'Every vow was a promise, and every promise was a beginning.', hang: 100 },
+    { type: 'story', text: 'Love was not the thunder. It was the rain.', hang: 118 },
+    { type: 'story', text: 'Two hearts, one story, forever beginning.', hang: 92 },
+    { type: 'story', text: 'The best chapters are written together.', hang: 150 },
   ];
 
   const DEFAULTS = {
